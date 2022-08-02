@@ -1,0 +1,18 @@
+//Menor, HArold O. BSCS1D
+//Example – Use of break in a for loop
+#include <stdio.h>
+int main()
+{ 
+       // Variable
+      int var;
+      for (var =20; var>=10; var --)
+      {
+           printf("var: %d\n", var);
+           if (var==19)
+           {
+               break;
+           }
+      }
+     printf("Out of for-loop");
+     return 0;
+}

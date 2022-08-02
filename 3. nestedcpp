@@ -1,0 +1,19 @@
+//Menor, Harold 0. BSCS1D
+// C program to illustrate nested-if statement 
+#include <stdio.h> 
+  
+int main() { 
+    //variable
+	int x = 20; 
+    //Input and Output
+    if (x == 10) 
+        printf("x is 10"); 
+    else if (x == 15) 
+        printf("x is 15"); 
+    else if (x == 20) 
+        printf("x is 20"); 
+    else
+        printf("x is not present"); 
+        
+        return 0;
+} 

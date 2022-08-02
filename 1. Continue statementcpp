@@ -1,0 +1,17 @@
+//Menor, Harold O. BSCS1D
+//Continue statement inside for loop
+#include <stdio.h>
+int main()
+{
+   for (int i=0; i<=7; i++)
+   {
+      if (i==4)
+      {
+	   //Continue
+	    continue;
+       }
+
+       printf("%d ", 5);
+   }
+   return 0;
+}

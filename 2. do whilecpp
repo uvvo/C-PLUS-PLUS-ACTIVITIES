@@ -1,0 +1,16 @@
+//MENOR, HAROLD O. BSCS1D
+// Print numbers from 1 to 5
+#include <stdio.h>
+int main()
+{
+	//VARIABLE
+    int i = 1;
+    //CONDITION
+    while (i <= 5)
+    {
+        printf("%d\n", i);
+        ++i;
+    }
+
+    return 0;
+}

@@ -1,0 +1,19 @@
+//Menor, HArold O. BSCS1D
+//Continue in do-While loop/
+#include <stdio.h>
+int main()
+{
+	//Varible
+   int i=0;
+   do
+   {
+      if (i==10)
+      {
+         i++;
+         continue;
+      }
+      printf("%d ", i);
+      i++;
+   }while(i<15);
+   return 0;
+}

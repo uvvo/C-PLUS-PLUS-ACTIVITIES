@@ -1,0 +1,13 @@
+//Menor, Harold O. BSCS1D
+//Simple Example of Pointers.
+#include <stdio.h>
+int main()
+{
+   //Variable declaration
+   int num = 13;
+   int p;
+
+   //Pointer declaration
+   printf("Address of variable num is: %p", p);
+   return 0;
+}

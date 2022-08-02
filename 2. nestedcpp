@@ -1,0 +1,23 @@
+//Menor, Harold O. BSCS1D
+// C program to illustrate nested-if statement 
+#include <stdio.h> 
+  
+int main() { 
+   //Variable
+    int a = 15; 
+   //Condition
+    if (a == 15) 
+    { 
+        // statement 
+        if (a < 20) 
+           printf("a is smaller than 20\n"); 
+  
+        // Nested - if statement 
+        if (a < 12) 
+            printf("a is smaller than 12 too\n"); 
+        else
+            printf("a is greater than 20"); 
+    } 
+  
+    return 0; 
+} 

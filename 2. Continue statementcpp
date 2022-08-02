@@ -1,0 +1,21 @@
+//Menor, Harold O. BSCS1D
+//Example – Use of break in a while loop.
+#include <stdio.h>
+int main()
+{  
+    //Variable
+     int num =0;
+    //Condition 
+     while(num<=10)
+     {
+        printf("Print the value of variable num is: %d\n", num);
+        if (num==2)
+        {
+            break;
+        }
+        num++;
+     }
+     //Output
+     printf("Out of while-loop");
+     return 0;
+}
